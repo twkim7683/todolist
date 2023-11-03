@@ -1,19 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
-import Goal from './Goal.js';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+//import GoalItemList from './components/GoalItemList.js';
+import MainPage from './components/MainPage';
+import UpdatePage from './components/UpdatePage';
 
-class App extends Component {
-    render() {
-      return (
-        <div className="App">
-          <h1>To do List</h1>
-          <Goal></Goal>
-          <Goal></Goal>
-          <Goal></Goal>
-          <Goal></Goal>
-        </div>
-      );
-  }
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<MainPage />} />
+        <Route exact path='/update' element={ <UpdatePage />} />
+        <Route exact path='/update' element={ <div></div>} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

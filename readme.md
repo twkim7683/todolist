@@ -9,4 +9,11 @@ React를 이용해서 TodoList 만들기
 2. <CreateGoal> : 새로운 목표 생성
 3. <UpdateGoal> : 기존 목표 수정
 4. <DeleteGoal> : 다 된 목표 삭제
-5. <Goal> : 각 목표의 정보를 보여주는 태그
+5. <Goal> : 각 목표의 정보를 보여주는 태그 -> 누르면 그 창으로 이동함
+
+
+2023.11.03
+
+한 것 : 기본 틀 만들기 - MainPage, UpdatePage를 오갈 수 있게 설정, Update 페이지의 기본적인 틀 완성
+
+과제 : UpdateGoal을 통해서 새로운 Goal을 만들었을 떄 이것을 GoalItemList에 추가하기
