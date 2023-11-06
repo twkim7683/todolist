@@ -7,10 +7,11 @@ function MainPage() {
     const navigate = useNavigate();
     return (
     <div>
+        <h1 style={{ textAlign: 'center'}}>태우의 To Do List</h1>
         <Button
-            title="update"
+            title="create"
             onClick={() => {
-                navigate('/update');
+                navigate('/create');
             }}
         />
         <GoalItemList />

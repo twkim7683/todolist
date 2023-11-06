@@ -1,24 +1,9 @@
-import React from 'react';
-import Button from '../ui/Button';
-import { useNavigate } from 'react-router-dom';
-import UpdateGoal from './UpdateGoal';
+import React from 'react'
 
 function UpdatePage() {
-  const navigate = useNavigate();
   return (
-    <div>
-        <Button
-            title="Home"
-            onClick={() => {
-                navigate('/');
-            }}
-        />
-        <br />
-        <span>업데이트 예정!</span>
-        <br />
-        <UpdateGoal />
-    </div>
-  );
+    <div>UpdatePage</div>
+  )
 }
 
-export default UpdatePage;
+export default UpdatePage

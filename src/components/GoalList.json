@@ -1,0 +1,14 @@
+[
+    {
+      "title": "독서",
+      "importance": 0,
+      "deadline": "",
+      "explanation": "꾸준히 책 읽기"
+    },
+    {
+      "title": "운동",
+      "importance": 0,
+      "deadline": "",
+      "explanation": "꾸준히 운동하기"
+    }
+  ]

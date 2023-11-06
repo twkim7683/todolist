@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 //import GoalItemList from './components/GoalItemList.js';
 import MainPage from './components/MainPage';
+import CreatePage from './components/CreatePage';
 import UpdatePage from './components/UpdatePage';
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<MainPage />} />
+        <Route exact path='/create' element={ <CreatePage />} />
         <Route exact path='/update' element={ <UpdatePage />} />
-        <Route exact path='/update' element={ <div></div>} />
       </Routes>
     </BrowserRouter>
   );
